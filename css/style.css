@@ -1,0 +1,23 @@
+.box{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1389b2;
+  border: 1px solid black;
+  margin: 5px;
+  color: black;
+}
+
+.box.fizzbuzz{
+  background-color: #f0466f;
+}
+
+.box.buzz{
+  background-color: #ffd166;
+}
+
+.box.fizz{
+  background-color: #1abc9c;
+}
